@@ -103,12 +103,25 @@ function App() {
             <span className="panel-number">04</span>
             <h2>Get in Touch</h2>
           </div>
-          <p className="contact-copy">
-            Interested in bringing Devin&apos;s culinary expertise to your kitchen? Reach out directly.
-          </p>
-          <a className="contact-button" href={`mailto:${resume.email}`}>
-            {resume.email}
-          </a>
+          <div className="contact-content">
+            <div className="contact-photo-wrap">
+              <img
+                src="/devin-restrepo.png"
+                alt="Devin Restrepo"
+                className="contact-photo"
+                width={280}
+                height={373}
+              />
+            </div>
+            <div className="contact-details">
+              <p className="contact-copy">
+                Interested in bringing Devin&apos;s culinary expertise to your kitchen? Reach out directly.
+              </p>
+              <a className="contact-button" href={`mailto:${resume.email}`}>
+                {resume.email}
+              </a>
+            </div>
+          </div>
         </section>
       </main>
 

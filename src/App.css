@@ -316,8 +316,36 @@
   color: var(--text-muted);
 }
 
-.contact-panel {
-  text-align: center;
+.contact-panel .panel-header {
+  margin-bottom: 2rem;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.contact-photo-wrap {
+  flex-shrink: 0;
+  padding: 3px;
+  border-radius: calc(var(--radius) + 2px);
+  background: var(--accent-gradient);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.25);
+}
+
+.contact-photo {
+  display: block;
+  width: 220px;
+  height: auto;
+  border-radius: var(--radius);
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+}
+
+.contact-details {
+  flex: 1;
+  text-align: left;
 }
 
 .contact-copy {
@@ -325,7 +353,7 @@
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
   max-width: 480px;
-  margin-inline: auto;
+  line-height: 1.7;
 }
 
 .contact-button {
@@ -376,5 +404,22 @@
 
   .job-meta {
     text-align: left;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-details {
+    text-align: center;
+  }
+
+  .contact-copy {
+    margin-inline: auto;
+  }
+
+  .contact-photo {
+    width: 200px;
   }
 }
