@@ -1,0 +1,110 @@
+export const resume = {
+  name: 'Devin Restrepo',
+  title: 'Cook & Culinary Professional',
+  email: 'idevin2002@gmail.com',
+  location: 'Emerald Coast, Florida',
+
+  skills: [
+    'Customer Service',
+    'Punctual',
+    'Team Player',
+    'Polite',
+    'Trustworthy',
+    'Hard-working',
+    'Attention to Detail',
+    'Fast Learner',
+    'Reliable',
+    'Friendly',
+  ],
+
+  education: [
+    {
+      year: '2023',
+      credential: 'Marine Technology Certification',
+      school: 'Okaloosa Technical College',
+    },
+    {
+      year: '2023',
+      credential: 'Food Handler Certification',
+      school: 'ServSafe',
+    },
+    {
+      year: '2020',
+      credential: 'High School Diploma',
+      school: 'Choctawhatchee High',
+    },
+  ],
+
+  experience: [
+    {
+      company: 'Old Bay Steamer',
+      location: 'Okaloosa Island, FL',
+      role: 'Cook | Prep',
+      period: 'May 2024 – Present',
+      highlights: [
+        'Mastered high-volume seafood preparation, consistently executing signature steamed platters to exact temperature and quality standards.',
+        'Demonstrated expert knowledge of seafood cookery, ensuring delicate items were perfectly timed during peak tourist seasons.',
+        'Managed a high-intensity line station, maintaining calm during dinner rushes with ticket times under 15 minutes.',
+        'Prepped fresh ingredients daily — portioning premium seafood, mixing seasoning blends, and preparing house-made sauces.',
+        'Collaborated with front-of-house and kitchen teams to time steaming-hot platters perfectly with appetizers.',
+        'Minimized food waste through precise portion control, FIFO inventory rotation, and proper seafood storage.',
+        'Adapted quickly to seasonal volume spikes, maintaining elite performance when restaurant traffic doubled.',
+        'Monitored refrigeration and cooking temperatures daily for HACCP compliance and safe seafood handling.',
+        'Maintained a spotless station with nightly teardowns, deep-cleaning, and sanitation of steaming lines.',
+      ],
+    },
+    {
+      company: 'The Grill at Shalimar Pointe Golf Club',
+      location: 'Shalimar, FL',
+      role: 'Cook | Server',
+      period: 'Jun 2023 – Dec 2023',
+      highlights: [
+        'Provided exceptional customer service by greeting guests, taking orders, and delivering drinks promptly.',
+        'Assisted in inventory management, restocking supplies, and maintaining par levels to meet demand.',
+        'Demonstrated teamwork and flexibility in adapting to changing priorities and busy periods.',
+        'Cooked and plated dishes according to established recipes and presentation standards.',
+        'Upheld strict sanitation and hygiene standards in compliance with health regulations.',
+        'Trained and mentored junior kitchen staff in cooking techniques, food safety, and kitchen procedures.',
+      ],
+    },
+    {
+      company: 'Downtown Music Hall',
+      location: 'Fort Walton Beach, FL',
+      role: 'Bouncer | Barback | Key Holder | Cook',
+      period: 'Dec 2020 – Jun 2022',
+      highlights: [
+        'Ensured compliance with food & beverage regulations.',
+        'Assisted bar staff in maintaining front-of-house operations.',
+        'Managed inventory levels, ordered supplies, and maintained kitchen equipment.',
+        'Prepared and cooked a variety of dishes according to recipes and quality standards.',
+        'Collaborated with colleagues to ensure excellence in service.',
+        'Responsible for opening and closing the establishment daily.',
+      ],
+    },
+    {
+      company: 'Asiago Skillet',
+      location: 'Fort Walton Beach, FL',
+      role: 'Dishwasher | Busser | Expo',
+      period: 'Jun 2019 – Apr 2022',
+      highlights: [
+        'Followed food safety standards and maintained cleanliness per health department requirements.',
+        'Assisted with food preparation and quality checks.',
+        'Verified customer orders were accurate by reviewing order tickets.',
+        'Sorted and rinsed dishes, glassware, and cooking utensils for the dish machine.',
+        'Collected soiled dishes from dining areas and transported them to the kitchen.',
+        'Performed general maintenance — sweeping, mopping, wiping tables, and trash removal.',
+      ],
+    },
+    {
+      company: "Kolbeck's Landscaping LLC",
+      location: 'Fort Walton Beach, FL',
+      role: 'Lawn Care Specialist',
+      period: 'Feb 2019 – May 2020',
+      highlights: [
+        'Delivered outstanding customer service and maintained positive client relationships.',
+        'Provided safe and efficient operation of lawn care machinery.',
+        'Followed standards and procedures to maintain a safe work environment.',
+      ],
+    },
+  ],
+};
